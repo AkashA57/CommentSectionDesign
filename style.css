@@ -1,0 +1,71 @@
+body{
+    font-family: sans-serif;
+}
+
+.outerDiv{
+    width: 60%;
+    height: 70%;
+    background: antiquewhite;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 35px 30px;
+}
+
+.postedComment{
+    position: relative;
+    margin-right: 1em;
+    background: whitesmoke;
+    box-shadow: 4px 3px 8px 1px #e16969;
+  	-webkit-box-shadow: 4px 3px 8px 1px #e76767;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.comment_container::before{
+    content: "";
+    background-color: aliceblue;
+    position: absolute;
+    min-height: 100%;
+    width: 1px;
+    left: -10px;
+}
+
+.icon-button{
+    position: relative;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: #333333
+    background: #dddddd;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    display:inline-block;
+    margin-right:10px;
+
+}
+
+.icon-button__badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 18px;
+    height: 18px;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.postedComment.userComments{
+    padding-bottom: 50px;
+}
+
