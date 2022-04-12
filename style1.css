@@ -81,7 +81,7 @@ textarea {
  margin: 5px 10px 5px 20px;
 }
 
-.liked::before {
+/*.heart::before {
  font-family: "Font Awesome 5 Free"; 
  font-weight: 900; 
  content: "\f004";
@@ -90,6 +90,19 @@ textarea {
  font-variant: normal;
  text-rendering: auto;
  -webkit-font-smoothing: antialiased;
+ cursor: pointer;
+ background: url("img.png") no-repeat;
+}*/
+
+.like__btn {
+ padding: 0;
+ /*background: #0080ff;*/
+ 
+ 
+ background: #f8f9fd;
+ /*color: #e8efff;*/
+ outline: none;
+ border: none;
  cursor: pointer;
 }
 
